@@ -90,11 +90,14 @@ a {
 .caption {
     font-size: 15px;
     font-style: italic;
+    text-align: center;
 
 }
 
 .containter {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 
@@ -103,5 +106,11 @@ a {
     width: 275px;
     height: 275px;
     padding: 4px;
-    
+
+}
+
+.cake-group {
+    border: 2px solid green;
+    width: 275px;
+
 }
